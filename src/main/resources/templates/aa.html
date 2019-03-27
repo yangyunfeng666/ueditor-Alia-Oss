@@ -75,6 +75,8 @@
             return '/image/imgUpdate';
          } else if(action == "uploadvideo"){
              return '/image/videoUpdate';
+         } else if(action == "listimage"){
+             return '/image/listImage';
          } else {
              return this._bkGetActionUrl.call(this, action);
          }
